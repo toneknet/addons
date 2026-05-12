@@ -1,0 +1,29 @@
+.bar-notification-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.bar-notification-circle {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-width: 8px;
+    height: 16px;
+    padding: 0 4px;
+    background-color: red;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    /* line-height: 12px;
+    text-align: center;
+    box-sizing: content-box; */
+}
+
+.bar-notification-icon.has-new-messages .bar-notification-circle {
+    display: flex; /* Show the circle when there are new messages */
+    align-content: center;
+    justify-content: center;
+}
