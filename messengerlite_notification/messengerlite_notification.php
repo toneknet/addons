@@ -6,7 +6,7 @@ Author URI: https://www.tonek.se
 Description: Notification module for the messengerlite
 Version: 0.1
 Type: Module
-Requires: Messengerlite
+Requires: messengerlite
  */
 class messengerlite_notification extends messengerlite{
   private $dbFormSettings;
